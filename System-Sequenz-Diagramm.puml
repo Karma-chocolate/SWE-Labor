@@ -1,0 +1,55 @@
+@startuml
+actor User
+participant System
+
+== Bild-Upload, Formatcheck & Konvertierung ==
+
+User -> System: uploadImage(image)
+activate System
+System -> System: checkFileFormat()
+alt Format != BMP
+    System -> System: convertToBMP()
+end
+
+== Initiale Reduktion ==
+
+System -> System: reduceImage()\n- scaleToStandardSize()\n- averageColors()\n- mapToBeadColors()
+System --> User: showPreview(preview)
+deactivate System
+
+== Interaktive Anpassungen ==
+
+loop Änderungen durch User
+    alt Farbe geändert
+        User -> System: updateColor(colorSelection)
+        activate System
+        System -> System: applyColorChange()
+        System --> User: showPreview(updatedPreview)
+        deactivate System
+
+    else 3D-Effekt-Grenzen geändert
+        User -> System: update3DEffect(bounds)
+        activate System
+        System -> System: apply3DEffect()
+        System --> User: showPreview(updatedPreview)
+        deactivate System
+
+    else Größe geändert
+        User -> System: updateSize(newSize)
+        activate System
+        System -> System: reduceImage()\n- scaleToNewSize()\n- averageColors()\n- mapToBeadColors()
+        System --> User: showPreview(rescaledPreview)
+        deactivate System
+    end
+end
+
+== Druck der Anleitung ==
+
+User -> System: generateInstruction()
+activate System
+System -> System: create3DBeadLayers()
+System -> System: renderInstructionPDF()
+System --> User: downloadInstruction(pdf)
+deactivate System
+
+@enduml
