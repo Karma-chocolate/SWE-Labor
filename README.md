@@ -10,12 +10,13 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 
 ![ActivityDiaBildVorschau](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ActivityDiaBildvorschau.puml)
 
-![ActivityDiaLayerAnpassen](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/refs/heads/main/ActivityDiaLayerAnpassen.puml?token=GHSAT0AAAAAADN4FNLOEKXNAIDU3ZPABEAM2JAP7YA)
+![ActivityDiaLayerAnpassen](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ActivityDiaLayerAnpassen.puml)
 ## Klassendiagramm
 Die zentralen Konzepte unsere Anwendung konnten wir in 7 Entitäten zusammenfassen. Dabei steht der Nutzer natürlich als Verwender des Systems. Außerdem übergibt er das zu verwendende Bild und erhält am Ende die fertige Anleitung. Das System selbst verwendet für verschiedene Operationen den Colormapper und den Exporter und speichert alle Fortschritte im Projekt.
-![ClassDiagramm](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/refs/heads/main/ClassDiagramm.puml?token=GHSAT0AAAAAADN4FNLOVI3XOTQ56737GJ7K2JAP73Q)
+![ClassDiagramm](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ClassDiagramm.puml)
 
 ## System-Sequenz-Diagramm
 Zuerst lädt der User ein Bild hoch, welches dann vom System konvertiert und verarbeitet wird. Dazu werden Defaultwerte zur Umwandlung genutzt. Danach gibt das System eine Preview und ermöglicht ab jetzt dem Nutzer verschiedene Operationen. Zum einen kann er einzelne Farben manuell abändern, die Grenzen und Anzahl der Layer anpassen und die allgemeine Größe und das Format anpassen. Nachdem der User seine Anpassungen vorgenommen hat, kann er zuletzt eine Anleitung anfordern.
-![SystemSequenzDia](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/refs/heads/main/System-Sequenz-Diagramm.puml?token=GHSAT0AAAAAADN4FNLO236YPVUWRAHQI46Y2JARJSA)
+
+![SystemSequenzDia](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/System-Sequenz-Diagramm.puml)
 ![Vorlage](http://www.plantuml.com/plantuml/proxy?cache=no&src="hierRawLink")
