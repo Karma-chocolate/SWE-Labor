@@ -11,6 +11,17 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 ![ActivityDiaBildVorschau](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ActivityDiaBildvorschau.puml)
 
 ![ActivityDiaLayerAnpassen](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ActivityDiaLayerAnpassen.puml)
+
+| Beschreibung                                                     | Name / Kurzbezeichnung | Prio | Status | Fragen | Req. |
+| ---------------------------------------------------------------- | ---------------------- | ---- | ------ | ------ | ---- |
+| Hier die textuelle Beschreibung ergänzen.                        | –                      | –    | –      | –      | –    |
+| Nutzer lädt Bild hoch und kann ersten Draft ansehen              | Bildvorschau ansehen   | –    | –      | –      | –    |
+| Dimension des Perlenrasters festlegen                            | Dimensionen festlegen  | –    | –      | –      | –    |
+| Manuelle Layeranpassung durch Nutzer, wieviele und ab wo Grenzen | Layer anpassen         | X    | –      | –      | –    |
+| Export des Projekts in .pdf oder .png                            | Export                 | –    | –      | –      | –    |
+| Nutzer speichert das Projekt ab                                  | Projekt speichern      | –    | –      | –      | –    |
+
+
 ## Klassendiagramm
 Die zentralen Konzepte unsere Anwendung konnten wir in 7 Entitäten zusammenfassen. Dabei steht der Nutzer natürlich als Verwender des Systems. Außerdem übergibt er das zu verwendende Bild und erhält am Ende die fertige Anleitung. Das System selbst verwendet für verschiedene Operationen den Colormapper und den Exporter und speichert alle Fortschritte im Projekt.
 ![ClassDiagramm](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ClassDiagramm.puml)
@@ -19,4 +30,15 @@ Die zentralen Konzepte unsere Anwendung konnten wir in 7 Entitäten zusammenfass
 Zuerst lädt der User ein Bild hoch, welches dann vom System konvertiert und verarbeitet wird. Dazu werden Defaultwerte zur Umwandlung genutzt. Danach gibt das System eine Preview und ermöglicht ab jetzt dem Nutzer verschiedene Operationen. Zum einen kann er einzelne Farben manuell abändern, die Grenzen und Anzahl der Layer anpassen und die allgemeine Größe und das Format anpassen. Nachdem der User seine Anpassungen vorgenommen hat, kann er zuletzt eine Anleitung anfordern.
 
 ![SystemSequenzDia](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/System-Sequenz-Diagramm.puml)
+
+| ALLG | ID | Nr. | Kategorie | Name                         | Beschreibung                                                                                                                              | Prio | Status | Fragen              |
+| ---- | -- | --- | --------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---- | ------ | ------------------- |
+| ALLG | 1  | 1   | fct       | Anleitung                    | Eine 1:1 Abbildung der zu legenden Bügelperlen. Jeweils eine Abbildung pro Layer und eine Anleitung zum Zusammenfügen der Ebenen im Ofen. | high | open   | –                   |
+| ALLG | 2  | 2   | fct       | Kompatibilität des Inputs    | Unterstützung verschiedener Bildgrößen und Bildtypen (JPG, PNG, BMP).                                                                     | med  | open   | –                   |
+| ALLG | 3  | 3   | fct       | Variabler Output             | Modulare Größe des Ergebnisses und der Anleitung dazu.                                                                                    | low  | open   | –                   |
+| ALLG | 4  | 4   | fct       | Komprimierung und Skalierung | Das Komprimieren der Farben sowie das Downsizing des Bildes auf die gewünschte Bildgröße.                                                 | high | open   | –                   |
+| ALLG | 5  | 1   | non fct   | UI                           | Verständliches, übersichtliches und benutzerfreundliches UI                                                                               | med  | open   | kundenzufriedenheit |
+| ALLG | 6  | 2   | non fct   | Layering                     | Das Bügelperlenbild erhält einen 3D-Layering-Effekt durch das Hinzufügen mehrerer Ebenen                                                  | med  | open   | kundenzufriedenheit |
+
+
 ![Vorlage](http://www.plantuml.com/plantuml/proxy?cache=no&src="hierRawLink")
