@@ -8,7 +8,7 @@ druckbare Anleitung zum selbst Bauen.
 Die Anleitung beinhält dabei je eine Steckvorlage für die einzelnen Layer,
 eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen der Layer.
 
-![ActivityDiaBildVorschau](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/refs/heads/main/ActivityDiaBildvorschau.puml?token=GHSAT0AAAAAADN4FNLONP2OVUTI62Q7YCIA2JAPZLA)
+![ActivityDiaBildVorschau](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/refs/heads/main/ActivityDiaBildvorschau.puml?token=GHSAT0AAAAAADN4FNLPJFTHDT3QJSTA4ODO2JAR23Q)
 
 ![ACtivityDiaLayerAnpassen](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/refs/heads/main/ActivityDiaLayerAnpassen.puml?token=GHSAT0AAAAAADN4FNLOEKXNAIDU3ZPABEAM2JAP7YA)
 
