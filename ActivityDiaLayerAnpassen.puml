@@ -1,35 +1,36 @@
 @startuml
-title Activity Diagramm – Bild importieren, Vorschau vergrößern, Projekt speichern
+title Preview Activity Diagramm
 
 |Nutzer|
 start
 :Startet die Anwendung;
 
-|Maschine|
-:Lädt letztes Projekt;
-note right
-Falls kein Projekt existiert, wird ein komplett neues
-Default-Projekt geladen.
-end note
+|System|
+:Initialisiert Anwendung;
+if (Gespeichertes Projekt vorhanden?) then (Ja)
+  :Lädt letztes Projekt;
+else (Nein)
+  :Erstellt neues Default-Projekt;
+endif
 :Zeigt Defaultscreen;
 
 |Nutzer|
 :Importiert ein Bild;
 
-|Maschine|
+|System|
 :Skaliert Originalbild auf neue Größe;
 :Nimmt Average der Farben für Downscale;
 :Erstellt Layer nach Default-Einstellungen;
 :Zeigt erste Vorschau der Vorlage;
 
 |Nutzer|
-:Sieht Vorschau und beschließt, das Bild zu vergrößern;
+:Sieht Vorschau und beschließt, eine änderung vorzunehmen;
 :Drückt "Vorschau erstellen";
 
-|Maschine|
-:Nimmt Average der Farben des Originalbilds
-um beste skalierten Farben im neuen Format zu erzeugen;
-:Zeigt neue Vorschau der Vorlage;
+|System|
+:nimmt änderungen vor;
+:Erstellt neue Vorschau;
+:Zeigt aktualisierte Vorschau;
 
 |Nutzer|
 :Speichert Projekt ab;
