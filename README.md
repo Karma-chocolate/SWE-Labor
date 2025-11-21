@@ -8,6 +8,7 @@ druckbare Anleitung zum selbst Bauen.
 Die Anleitung beinhält dabei je eine Steckvorlage für die einzelnen Layer,
 eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen der Layer.
 
-![Mein Diagramm](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/refs/heads/main/ActivityDiaBildvorschau.puml?token=GHSAT0AAAAAADN4FNLONP2OVUTI62Q7YCIA2JAPZLA)
-![Mein Diagramm](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/refs/heads/main/ActivityDiaLayerAnpassen.puml?token=GHSAT0AAAAAADN4FNLOEKXNAIDU3ZPABEAM2JAP7YA)
-![Mein Diagramm](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/refs/heads/main/ClassDiagramm.puml?token=GHSAT0AAAAAADN4FNLOVI3XOTQ56737GJ7K2JAP73Q)
+![ActivityDiaBildVorschau](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/refs/heads/main/ActivityDiaBildvorschau.puml?token=GHSAT0AAAAAADN4FNLONP2OVUTI62Q7YCIA2JAPZLA)
+![ACtivityDiaLayerAnpassen](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/refs/heads/main/ActivityDiaLayerAnpassen.puml?token=GHSAT0AAAAAADN4FNLOEKXNAIDU3ZPABEAM2JAP7YA)
+![ClassDiagramm](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/refs/heads/main/ClassDiagramm.puml?token=GHSAT0AAAAAADN4FNLOVI3XOTQ56737GJ7K2JAP73Q)
+![Vorlage](http://www.plantuml.com/plantuml/proxy?cache=no&src="hierRawLink")
