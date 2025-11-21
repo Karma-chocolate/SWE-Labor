@@ -14,7 +14,6 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 
 | Beschreibung                                                     | Name / Kurzbezeichnung | Prio | Status | Fragen | Req. |
 | ---------------------------------------------------------------- | ---------------------- | ---- | ------ | ------ | ---- |
-| Hier die textuelle Beschreibung ergänzen.                        | –                      | –    | –      | –      | –    |
 | Nutzer lädt Bild hoch und kann ersten Draft ansehen              | Bildvorschau ansehen   | –    | –      | –      | –    |
 | Dimension des Perlenrasters festlegen                            | Dimensionen festlegen  | –    | –      | –      | –    |
 | Manuelle Layeranpassung durch Nutzer, wieviele und ab wo Grenzen | Layer anpassen         | X    | –      | –      | –    |
@@ -32,13 +31,13 @@ Zuerst lädt der User ein Bild hoch, welches dann vom System konvertiert und ver
 ![SystemSequenzDia](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/System-Sequenz-Diagramm.puml)
 
 | ALLG | ID | Nr. | Kategorie | Name                         | Beschreibung                                                                                                                              | Prio | Status | Fragen              |
-| ---- | -- | --- | --------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---- | ------ | ------------------- |
-| ALLG | 1  | 1   | fct       | Anleitung                    | Eine 1:1 Abbildung der zu legenden Bügelperlen. Jeweils eine Abbildung pro Layer und eine Anleitung zum Zusammenfügen der Ebenen im Ofen. | high | open   | –                   |
-| ALLG | 2  | 2   | fct       | Kompatibilität des Inputs    | Unterstützung verschiedener Bildgrößen und Bildtypen (JPG, PNG, BMP).                                                                     | med  | open   | –                   |
-| ALLG | 3  | 3   | fct       | Variabler Output             | Modulare Größe des Ergebnisses und der Anleitung dazu.                                                                                    | low  | open   | –                   |
-| ALLG | 4  | 4   | fct       | Komprimierung und Skalierung | Das Komprimieren der Farben sowie das Downsizing des Bildes auf die gewünschte Bildgröße.                                                 | high | open   | –                   |
-| ALLG | 5  | 1   | non fct   | UI                           | Verständliches, übersichtliches und benutzerfreundliches UI                                                                               | med  | open   | kundenzufriedenheit |
-| ALLG | 6  | 2   | non fct   | Layering                     | Das Bügelperlenbild erhält einen 3D-Layering-Effekt durch das Hinzufügen mehrerer Ebenen                                                  | med  | open   | kundenzufriedenheit |
+| -- | --- | --------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---- | ------ | ------------------- |
+| 1  | 1   | fct       | Anleitung                    | Eine 1:1 Abbildung der zu legenden Bügelperlen. Jeweils eine Abbildung pro Layer und eine Anleitung zum Zusammenfügen der Ebenen im Ofen. | high | open   | –                   |
+| 2  | 2   | fct       | Kompatibilität des Inputs    | Unterstützung verschiedener Bildgrößen und Bildtypen (JPG, PNG, BMP).                                                                     | med  | open   | –                   |
+| 3  | 3   | fct       | Variabler Output             | Modulare Größe des Ergebnisses und der Anleitung dazu.                                                                                    | low  | open   | –                   |
+| 4  | 4   | fct       | Komprimierung und Skalierung | Das Komprimieren der Farben sowie das Downsizing des Bildes auf die gewünschte Bildgröße.                                                 | high | open   | –                   |
+| 5  | 1   | non fct   | UI                           | Verständliches, übersichtliches und benutzerfreundliches UI                                                                               | med  | open   | kundenzufriedenheit |
+| 6  | 2   | non fct   | Layering                     | Das Bügelperlenbild erhält einen 3D-Layering-Effekt durch das Hinzufügen mehrerer Ebenen                                                  | med  | open   | kundenzufriedenheit |
 
 
 ![Vorlage](http://www.plantuml.com/plantuml/proxy?cache=no&src="hierRawLink")
