@@ -26,15 +26,17 @@ loop Änderungen durch User
         System -> System: applyColorChange()
         System --> User: showPreview(updatedPreview)
         deactivate System
+    end
 
-    else 3D-Effekt-Grenzen geändert
+    alt 3D-Effekt-Grenzen geändert
         User -> System: update3DEffect(bounds)
         activate System
         System -> System: apply3DEffect()
         System --> User: showPreview(updatedPreview)
         deactivate System
+    end
 
-    else Größe geändert
+    alt Größe geändert
         User -> System: updateSize(newSize)
         activate System
         System -> System: reduceImage()\n- scaleToNewSize()\n- averageColors()\n- mapToBeadColors()
