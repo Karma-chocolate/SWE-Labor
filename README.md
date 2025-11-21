@@ -12,13 +12,13 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 
 ![ActivityDiaLayerAnpassen](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ActivityDiaLayerAnpassen.puml)
 
-| Beschreibung                                                     | Name / Kurzbezeichnung | Prio | Status | Fragen | Req. |
+| Beschreibung                                                     | Name  | Prio | Status | Fragen | Req. |
 | ---------------------------------------------------------------- | ---------------------- | ---- | ------ | ------ | ---- |
-| Nutzer lädt Bild hoch und kann ersten Draft ansehen              | Bildvorschau ansehen   | –    | –      | –      | –    |
-| Dimension des Perlenrasters festlegen                            | Dimensionen festlegen  | –    | –      | –      | –    |
-| Manuelle Layeranpassung durch Nutzer, wieviele und ab wo Grenzen | Layer anpassen         | X    | –      | –      | –    |
-| Export des Projekts in .pdf oder .png                            | Export                 | –    | –      | –      | –    |
-| Nutzer speichert das Projekt ab                                  | Projekt speichern      | –    | –      | –      | –    |
+| Nutzer lädt Bild hoch und kann ersten Draft ansehen              | Bildvorschau ansehen   | essenziell    | offen      | –      | –    |
+| Dimension des Perlenrasters festlegen                            | Dimensionen festlegen  | wichtig    | offen      | –      | –    |
+| Manuelle Layeranpassung durch Nutzer, wieviele und ab wo Grenzen | Layer anpassen         | unwichtig    | offen      | –      | –    |
+| Export des Projekts in .pdf oder .png                            | Export                 | essenziell    | offen      | –      | –    |
+| Nutzer speichert das Projekt ab                                  | Projekt speichern      | wichtig    | offen      | –      | –    |
 
 
 ## Klassendiagramm
