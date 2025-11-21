@@ -1,9 +1,9 @@
 @startuml
-title Preview Activity Diagramm
+title Layer Activity Diagramm
 
 |Nutzer|
 start
-:Startet Anwendung;
+:Startet die Anwendung;
 
 |System|
 :Initialisiert Anwendung;
@@ -15,13 +15,13 @@ endif
 :Zeigt Defaultscreen;
 
 |Nutzer|
-:Importiert Bild;
+:Importiert ein Bild;
 
 |System|
-:Skaliert Originalbild;
-:Berechnet Average-Farben / beste Näherungsfarben;
-:Erstellt Default-Layer;
-:Zeigt erste Vorschau;
+:Skaliert Originalbild auf neue Größe;
+:Nimmt Average der Farben für Downscale;
+:Erstellt Layer nach Default-Einstellungen;
+:Zeigt erste Vorschau der Vorlage;
 
 |Nutzer|
 :Passt Layeranzahl an;
@@ -29,10 +29,12 @@ endif
 :Drückt "Vorschau erstellen";
 
 |System|
-:Erstellt neue Vorschau;
+:Passt die Layeranzahl an;
+:Setzt die Grenzen und Dimensionen neu;
 :Zeigt aktualisierte Vorschau;
 
 |Nutzer|
+:Speichert Projekt ab;
 stop
 @enduml 
 
