@@ -1,1 +1,3 @@
 ![Mein Diagramm](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/refs/heads/main/ActivityDiaBildvorschau.puml?token=GHSAT0AAAAAADN4FNLONP2OVUTI62Q7YCIA2JAPZLA)
+![Mein Diagramm](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/refs/heads/main/ActivityDiaLayerAnpassen.puml?token=GHSAT0AAAAAADN4FNLOEKXNAIDU3ZPABEAM2JAP7YA)
+![Mein Diagramm](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/refs/heads/main/ClassDiagramm.puml?token=GHSAT0AAAAAADN4FNLOVI3XOTQ56737GJ7K2JAP73Q)
