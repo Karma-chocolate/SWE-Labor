@@ -30,7 +30,7 @@ Zuerst lädt der User ein Bild hoch, welches dann vom System konvertiert und ver
 
 ![SystemSequenzDia](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/System-Sequenz-Diagramm.puml)
 
-| ALLG | ID | Nr. | Kategorie | Name                         | Beschreibung                                                                                                                              | Prio | Status | Fragen              
+| ID | Nr. | Kategorie | Name                         | Beschreibung                                                                                                                              | Prio | Status | Fragen              
 | -- | --- | --------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---- | ------ | ------------------- |
 | 1  | 1   | fct       | Anleitung                    | Eine 1:1 Abbildung der zu legenden Bügelperlen. Jeweils eine Abbildung pro Layer und eine Anleitung zum Zusammenfügen der Ebenen im Ofen. | high | open   | –                   |
 | 2  | 2   | fct       | Kompatibilität des Inputs    | Unterstützung verschiedener Bildgrößen und Bildtypen (JPG, PNG, BMP).                                                                     | med  | open   | –                   |
@@ -38,6 +38,5 @@ Zuerst lädt der User ein Bild hoch, welches dann vom System konvertiert und ver
 | 4  | 4   | fct       | Komprimierung und Skalierung | Das Komprimieren der Farben sowie das Downsizing des Bildes auf die gewünschte Bildgröße.                                                 | high | open   | –                   |
 | 5  | 1   | non fct   | UI                           | Verständliches, übersichtliches und benutzerfreundliches UI                                                                               | med  | open   | kundenzufriedenheit |
 | 6  | 2   | non fct   | Layering                     | Das Bügelperlenbild erhält einen 3D-Layering-Effekt durch das Hinzufügen mehrerer Ebenen                                                  | med  | open   | kundenzufriedenheit |
-
 
 ![Vorlage](http://www.plantuml.com/plantuml/proxy?cache=no&src="hierRawLink")
