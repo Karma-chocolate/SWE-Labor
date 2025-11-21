@@ -9,9 +9,10 @@ Die Anleitung beinhält dabei je eine Steckvorlage für die einzelnen Layer,
 eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen der Layer.
 
 ## Activity-Diagramm "Layer anpassen"
-![ActivityDiaBildVorschau](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ActivityDiaBildvorschau.puml)
-## Activity-Diagramm "Preview ansehen"
 ![ActivityDiaLayerAnpassen](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ActivityDiaLayerAnpassen.puml)
+
+## Activity-Diagramm "Preview ansehen"
+![ActivityDiaBildVorschau](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ActivityDiaBildvorschau.puml)
 
 | Beschreibung                                                     | Name  | Prio | Status | Fragen | Req. |
 | ---------------------------------------------------------------- | ---------------------- | ---- | ------ | ------ | ---- |
