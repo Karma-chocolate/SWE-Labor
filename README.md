@@ -30,7 +30,7 @@ Zuerst lädt der User ein Bild hoch, welches dann vom System konvertiert und ver
 
 ![SystemSequenzDia](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/System-Sequenz-Diagramm.puml)
 
-| ALLG | ID | Nr. | Kategorie | Name                         | Beschreibung                                                                                                                              | Prio | Status | Fragen              |
+| ALLG | ID | Nr. | Kategorie | Name                         | Beschreibung                                                                                                                              | Prio | Status | Fragen              
 | -- | --- | --------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---- | ------ | ------------------- |
 | 1  | 1   | fct       | Anleitung                    | Eine 1:1 Abbildung der zu legenden Bügelperlen. Jeweils eine Abbildung pro Layer und eine Anleitung zum Zusammenfügen der Ebenen im Ofen. | high | open   | –                   |
 | 2  | 2   | fct       | Kompatibilität des Inputs    | Unterstützung verschiedener Bildgrößen und Bildtypen (JPG, PNG, BMP).                                                                     | med  | open   | –                   |
