@@ -8,8 +8,9 @@ druckbare Anleitung zum selbst Bauen.
 Die Anleitung beinhält dabei je eine Steckvorlage für die einzelnen Layer,
 eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen der Layer.
 
+## Activity-Diagramm "Layer anpassen"
 ![ActivityDiaBildVorschau](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ActivityDiaBildvorschau.puml)
-
+## Activity-Diagramm "Preview ansehen"
 ![ActivityDiaLayerAnpassen](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ActivityDiaLayerAnpassen.puml)
 
 | Beschreibung                                                     | Name  | Prio | Status | Fragen | Req. |
@@ -31,7 +32,7 @@ Zuerst lädt der User ein Bild hoch, welches dann vom System konvertiert und ver
 
 ![SystemSequenzDia](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/System-Sequenz-Diagramm.puml)
 
-| ID | Nr. | Kategorie | Name                         | Beschreibung                                                                                                                              | Prio | Status | Fragen              
+| ID | Nr. | Kategorie | Name                         | Beschreibung                                                                                                                              | Prio | Status | Messwert              
 | -- | --- | --------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---- | ------ | ------------------- |
 | 1  | 1   | fct       | Anleitung                    | Eine 1:1 Abbildung der zu legenden Bügelperlen. Jeweils eine Abbildung pro Layer und eine Anleitung zum Zusammenfügen der Ebenen im Ofen. | high | open   | –                   |
 | 2  | 2   | fct       | Kompatibilität des Inputs    | Unterstützung verschiedener Bildgrößen und Bildtypen (JPG, PNG, BMP).                                                                     | med  | open   | –                   |
