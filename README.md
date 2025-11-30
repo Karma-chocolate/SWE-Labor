@@ -18,11 +18,11 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 
 | Beschreibung                                                     | Name  | Prio | Status | Fragen | Req. |
 | ---------------------------------------------------------------- | ---------------------- | ---- | ------ | ------ | ---- |
-| Nutzer lädt Bild hoch und kann ersten Draft ansehen              | Bildvorschau ansehen   | essenziell    | offen      | –      | –    |
-| Dimension des Perlenrasters festlegen                            | Dimensionen festlegen  | wichtig    | offen      | –      | –    |
-| Manuelle Layeranpassung durch Nutzer, wieviele und ab wo Grenzen | Layer anpassen         | unwichtig    | offen      | –      | –    |
-| Export des Projekts in .pdf oder .png                            | Export                 | essenziell    | offen      | –      | –    |
-| Nutzer speichert das Projekt ab                                  | Projekt speichern      | wichtig    | offen      | –      | –    |
+| Nutzer lädt Bild hoch und kann ersten Draft ansehen              | Bildvorschau ansehen   | essenziell    | offen      | –      | 22, 44, 51    |
+| Dimension des Perlenrasters festlegen                            | Dimensionen festlegen  | wichtig    | offen      | –      | 33, 44    |
+| Manuelle Layeranpassung durch Nutzer, wieviele und ab wo Grenzen | Layer anpassen         | unwichtig    | offen      | –      | 52    |
+| Export des Projekts in .pdf oder .png                            | Export                 | essenziell    | offen      | –      | 11    |
+| Nutzer speichert das Projekt ab                                  | Projekt speichern      | wichtig    | offen      | –      | 51    |
 
 
 ## Klassendiagramm
