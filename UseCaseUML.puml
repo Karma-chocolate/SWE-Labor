@@ -1,0 +1,22 @@
+@startuml
+left to right direction
+
+actor Nutzer
+
+rectangle "System" {
+    (Bild hochladen)
+    (Bildvorschau ansehen)
+    (Dimensionen festlegen)
+    (Layer anpassen)
+    (Projekt speichern)
+    (Exportieren als PDF/PNG)
+}
+
+Nutzer --> (Bild hochladen)
+Nutzer --> (Bildvorschau ansehen)
+Nutzer --> (Dimensionen festlegen)
+Nutzer --> (Layer anpassen)
+Nutzer --> (Projekt speichern)
+Nutzer --> (Exportieren als PDF/PNG)
+
+@enduml
