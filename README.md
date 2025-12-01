@@ -26,9 +26,6 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 | Nutzer exportiert das Projekt in .pdf oder .png                  | Export                 | essenziell    | offen      | –      | 11    |
 | Nutzer speichert das Projekt ab                                  | Projekt speichern      | wichtig    | offen      | –      | 51    |
 
-## 5. Use-Case-diagramm
-![Use-Case](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/UseCaseUML.puml)
-
 ## 6. Begründungen für Prioritäten
 
 - Der Nutzer braucht eine Vorschau, um einzuschätzen ob das Ergebnis den Erwartungen entspricht, beveor es gedruckt wird.
@@ -36,6 +33,9 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 - Die layeranpassung ist gut für spezielle Anforderungen, aber nicht relevant um ein gutes Ergebniss zu bekommen.
 - Damit das Programm seinen zweck erfüllt, muss der Nutzer das Projekt drucken können.
 - Um alte Projekte nicht von neu aufbauen zu müssen, ist es sinnvoll alte Projekt speichern und wieder öffnen zu können.
+
+## 5. Use-Case-diagramm
+![Use-Case](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/UseCaseUML.puml)
 
 ## 7.Klassendiagramm
 Die zentralen Konzepte unsere Anwendung konnten wir in 7 Entitäten zusammenfassen. Dabei steht der Nutzer natürlich als außenstehender Verwender des Systems. Außerdem übergibt er das zu verwendende Bild und erhält am Ende die vom System erstellte Anleitung. Das System verwendet für das Anpassen und Erstellen einer Anleitung den Colormapper und den Exporter und speichert alle Fortschritte im Projekt.
