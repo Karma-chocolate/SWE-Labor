@@ -4,17 +4,6 @@ title Layer Activity Diagramm
 |Nutzer|
 start
 :Startet die Anwendung;
-
-|System|
-:Initialisiert Anwendung;
-if (Gespeichertes Projekt vorhanden?) then (Ja)
-  :Lädt letztes Projekt;
-else (Nein)
-  :Erstellt neues Default-Projekt;
-endif
-:Zeigt Defaultscreen;
-
-|Nutzer|
 :Importiert ein Bild;
 
 |System|
@@ -25,12 +14,18 @@ endif
 
 |Nutzer|
 :Passt Layeranzahl an;
-:Wählt Grenzen & Dimensionen der Layer;
 :Drückt "Vorschau erstellen";
 
 |System|
 :Passt die Layeranzahl an;
-:Setzt die Grenzen und Dimensionen neu;
+:Zeigt aktualisierte Vorschau;
+
+|Nutzer|
+:Wählt Grenzen & Dimensionen der Layer;
+:Drückt "Vorschau erstellen";
+
+|System|
+:Passt Grenzen & Dimensionen der Layer;
 :Zeigt aktualisierte Vorschau;
 
 |Nutzer|
