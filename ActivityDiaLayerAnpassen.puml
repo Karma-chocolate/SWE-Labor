@@ -4,23 +4,9 @@ title Preview Activity Diagramm
 |Nutzer|
 start
 :Startet die Anwendung;
-
-|System|
-:Initialisiert Anwendung;
-if (Gespeichertes Projekt vorhanden?) then (Ja)
-  :Lädt letztes Projekt;
-else (Nein)
-  :Erstellt neues Default-Projekt;
-endif
-:Zeigt Defaultscreen;
-
-|Nutzer|
 :Importiert ein Bild;
 
 |System|
-:Skaliert Originalbild auf neue Größe;
-:Nimmt Average der Farben für Downscale;
-:Erstellt Layer nach Default-Einstellungen;
 :Zeigt erste Vorschau der Vorlage;
 
 |Nutzer|
@@ -31,9 +17,6 @@ endif
 :nimmt änderungen vor;
 :Erstellt neue Vorschau;
 :Zeigt aktualisierte Vorschau;
-
-|Nutzer|
-:Speichert Projekt ab;
 stop
 
 @enduml
