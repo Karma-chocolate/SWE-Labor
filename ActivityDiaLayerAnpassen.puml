@@ -17,6 +17,9 @@ start
 :nimmt änderungen vor;
 :Erstellt neue Vorschau;
 :Zeigt aktualisierte Vorschau;
+
+|Nutzer|
+:Sieht aktualisierte Vorschau;
 stop
 
 @enduml
