@@ -7,7 +7,7 @@ start
 :Importiert ein Bild;
 
 |System|
-:Skaliert Originalbild auf neue Größe;
+:Skaliert Originalbild auf default Größe;
 :Nimmt Average der Farben für Downscale;
 :Erstellt Layer nach Default-Einstellungen;
 :Zeigt erste Vorschau der Vorlage;
@@ -25,7 +25,7 @@ start
 :Drückt "Vorschau erstellen";
 
 |System|
-:Passt Grenzen & Dimensionen der Layer;
+:Setzt Grenzen und Dimensionen der Layer neu;
 :Zeigt aktualisierte Vorschau;
 
 |Nutzer|
