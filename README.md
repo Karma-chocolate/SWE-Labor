@@ -1,4 +1,4 @@
-## Unsere Idee:
+## 1. Unsere Idee:
 Ein beliebiges Bild des Users wird umgewandelt in eine ausdruckbare Vorlage für
 3D Pixelart mit konkavem Tiefeneffekt, welche mit Bügelperlen gebaut werden kann.
 Dabei hat der User die Freiheit, die Skalierung und Größe des Bilds anzupassen, sowie
@@ -10,13 +10,13 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 
 
 
-## Activity-Diagramm "Layer anpassen"
+## 2. Activity-Diagramm "Layer anpassen"
 ![ActivityDiaLayerAnpassen](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ActivityDiaBildvorschau.puml)
 
-## Activity-Diagramm "Preview ansehen"
+## 3. Activity-Diagramm "Preview ansehen"
 ![ActivityDiaBildVorschau](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ActivityDiaLayerAnpassen.puml)
 
-## Use Cases
+## 4. Use Cases
 
 | Beschreibung                                                     | Name  | Prio | Status | Fragen | Req. |
 | ---------------------------------------------------------------- | ---------------------- | ---- | ------ | ------ | ---- |
@@ -26,10 +26,10 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 | Nutzer exportiert das Projekt in .pdf oder .png                  | Export                 | essenziell    | offen      | –      | 11    |
 | Nutzer speichert das Projekt ab                                  | Projekt speichern      | wichtig    | offen      | –      | 51    |
 
-## Use-Case-diagramm
+## 5. Use-Case-diagramm
 ![Use-Case](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/UseCaseUML.puml)
 
-## Begründungen für Prioritäten
+## 6. Begründungen für Prioritäten
 
 - Der Nutzer braucht eine Vorschau, um einzuschätzen ob das Ergebnis den Erwartungen entspricht, beveor es gedruckt wird.
 - Um individuelle Ergebnisse zu bekommen, müssen die Dimensionen anpassbar sein.
@@ -37,17 +37,17 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 - Damit das Programm seinen zweck erfüllt, muss der Nutzer das Projekt drucken können.
 - Um alte Projekte nicht von neu aufbauen zu müssen, ist es sinnvoll alte Projekt speichern und wieder öffnen zu können.
 
-## Klassendiagramm
+## 7.Klassendiagramm
 Die zentralen Konzepte unsere Anwendung konnten wir in 7 Entitäten zusammenfassen. Dabei steht der Nutzer natürlich als außenstehender Verwender des Systems. Außerdem übergibt er das zu verwendende Bild und erhält am Ende die vom System erstellte Anleitung. Das System verwendet für das Anpassen und Erstellen einer Anleitung den Colormapper und den Exporter und speichert alle Fortschritte im Projekt.
 
 ![ClassDiagramm](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ClassDiagramm.puml)
 
-## System-Sequenz-Diagramm
+## 8. System-Sequenz-Diagramm
 Zuerst lädt der Nutzer ein Bild hoch, welches dann vom System konvertiert und verarbeitet wird. Dazu werden Defaultwerte zur Umwandlung genutzt. Danach gibt das System eine Preview und ermöglicht ab jetzt dem Nutzer verschiedene Operationen. Zum einen kann er einzelne Farben manuell abändern, die Grenzen und Anzahl der Layer anpassen und die allgemeine Größe und das Format anpassen. Nachdem der Nutzer seine Anpassungen vorgenommen hat, kann er zuletzt eine Anleitung generieren.
 
 ![SystemSequenzDia](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/System-Sequenz-Diagramm.puml)
 
-## Anforderungen
+## 9. Anforderungen
 
 | ID | Nr. | Kategorie | Name                         | Beschreibung                                                                                                                              | Prio | Status | Messwert              
 | -- | --- | --------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---- | ------ | ------------------- |
