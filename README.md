@@ -28,11 +28,11 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 
 ## 5. Begründungen für Prioritäten
 
-- Der Nutzer braucht eine Vorschau, um einzuschätzen ob das Ergebnis den Erwartungen entspricht, beveor es gedruckt wird.
-- Um individuelle Ergebnisse zu bekommen, müssen die Dimensionen anpassbar sein.
-- Die layeranpassung ist gut für spezielle Anforderungen, aber nicht relevant um ein gutes Ergebniss zu bekommen.
-- Damit das Programm seinen zweck erfüllt, muss der Nutzer das Projekt drucken können.
-- Um alte Projekte nicht von neu aufbauen zu müssen, ist es sinnvoll alte Projekt speichern und wieder öffnen zu können.
+- Der Nutzer braucht eine Vorschau, um Einzuschätzen ob das Ergebnis den Erwartungen entspricht bevor es gedruckt wird.
+- Anpassbare Dimensionen machen das Ergebniss individualisierbar und bieten auch die Möglichkeit zur Begrenzung des benötigten Materials.
+- Layeranpassungen sind praktisch für spezielle Anforderungen, aber nicht relevant um ein gutes Ergebniss zu bekommen.
+- Damit das Programm seinen Zweck erfüllen kann, muss der Nutzer das Projekt drucken können.
+- Um Projekte nicht von neu aufbauen zu müssen, ist es sinnvoll alte Projekt speichern und wieder öffnen zu können.
 
 ## 6. Use-Case-diagramm
 ![Use-Case](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/UseCaseUML.puml)
