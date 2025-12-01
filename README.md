@@ -26,7 +26,7 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 | Nutzer exportiert das Projekt in .pdf oder .png                  | Export                 | essenziell    | offen      | –      | 11    |
 | Nutzer speichert das Projekt ab                                  | Projekt speichern      | wichtig    | offen      | –      | 51    |
 
-## 6. Begründungen für Prioritäten
+## 5. Begründungen für Prioritäten
 
 - Der Nutzer braucht eine Vorschau, um einzuschätzen ob das Ergebnis den Erwartungen entspricht, beveor es gedruckt wird.
 - Um individuelle Ergebnisse zu bekommen, müssen die Dimensionen anpassbar sein.
@@ -34,7 +34,7 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 - Damit das Programm seinen zweck erfüllt, muss der Nutzer das Projekt drucken können.
 - Um alte Projekte nicht von neu aufbauen zu müssen, ist es sinnvoll alte Projekt speichern und wieder öffnen zu können.
 
-## 5. Use-Case-diagramm
+## 6. Use-Case-diagramm
 ![Use-Case](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/UseCaseUML.puml)
 
 ## 7.Klassendiagramm
