@@ -1,4 +1,6 @@
-## 1. Unsere Idee:
+## 1. 3D Perlenbild:
+[ brsi1022 / doal1018 / plni1012 ]
+
 Ein beliebiges Bild des Users wird umgewandelt in eine ausdruckbare Vorlage für
 3D Pixelart mit konkavem Tiefeneffekt, welche mit Bügelperlen gebaut werden kann.
 Dabei hat der User die Freiheit, die Skalierung und Größe des Bilds anzupassen, sowie
@@ -9,15 +11,8 @@ Die Anleitung beinhält dabei je eine Steckvorlage pro Layer,
 eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen der Layer.
 
 
-
-## 2. Activity-Diagramm "Layer anpassen"
-![ActivityDiaLayerAnpassen](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ActivityDiaBildvorschau.puml)
-
-## 3. Activity-Diagramm "Preview ansehen"
-![ActivityDiaBildVorschau](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ActivityDiaLayerAnpassen.puml)
-
-## 4. Use Cases
-
+## 2. Use Cases
+![Use-Case](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/UseCaseUML.puml)
 | Beschreibung                                                     | Name  | Prio | Status | Fragen | Req. |
 | ---------------------------------------------------------------- | ---------------------- | ---- | ------ | ------ | ---- |
 | Nutzer lädt Bild hoch und kann ersten Draft ansehen              | Bildvorschau ansehen   | essenziell    | offen      | –      | 22, 44, 51    |
@@ -26,7 +21,7 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 | Nutzer exportiert das Projekt in .pdf oder .png                  | Export                 | essenziell    | offen      | –      | 11    |
 | Nutzer speichert das Projekt ab                                  | Projekt speichern      | wichtig    | offen      | –      | 51    |
 
-## 5. Begründungen für Prioritäten
+## 3. Begründungen für Prioritäten
 
 - Der Nutzer braucht eine Vorschau, um Einzuschätzen ob das Ergebnis den Erwartungen entspricht bevor es gedruckt wird.
 - Anpassbare Dimensionen machen das Ergebniss individualisierbar und bieten auch die Möglichkeit zur Begrenzung des benötigten Materials.
@@ -34,20 +29,7 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 - Damit das Programm seinen Zweck erfüllen kann, muss der Nutzer das Projekt drucken können.
 - Um Projekte nicht von neu aufbauen zu müssen, ist es sinnvoll alte Projekt speichern und wieder öffnen zu können.
 
-## 6. Use-Case-diagramm
-![Use-Case](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/UseCaseUML.puml)
-
-## 7.Klassendiagramm
-Die zentralen Konzepte unsere Anwendung konnten wir in 7 Entitäten zusammenfassen. Dabei steht der Nutzer natürlich als außenstehender Verwender des Systems. Außerdem übergibt er das zu verwendende Bild und erhält am Ende die vom System erstellte Anleitung. Das System verwendet für das Anpassen und Erstellen einer Anleitung den Colormapper und den Exporter und speichert alle Fortschritte im Projekt.
-
-![ClassDiagramm](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ClassDiagramm.puml)
-
-## 8. System-Sequenz-Diagramm
-Zuerst lädt der Nutzer ein Bild hoch, welches dann vom System konvertiert und verarbeitet wird. Dazu werden Defaultwerte zur Umwandlung genutzt. Danach gibt das System eine Preview und ermöglicht ab jetzt dem Nutzer verschiedene Operationen. Zum einen kann er einzelne Farben manuell abändern, die Grenzen und Anzahl der Layer anpassen und die allgemeine Größe und das Format anpassen. Nachdem der Nutzer seine Anpassungen vorgenommen hat, kann er zuletzt eine Anleitung generieren.
-
-![SystemSequenzDia](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/System-Sequenz-Diagramm.puml)
-
-## 9. Anforderungen
+## 4. Anforderungen
 
 | ID | Nr. | Kategorie | Name                         | Beschreibung                                                                                                                              | Prio | Status | Messwert              
 | -- | --- | --------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---- | ------ | ------------------- |
@@ -57,6 +39,23 @@ Zuerst lädt der Nutzer ein Bild hoch, welches dann vom System konvertiert und v
 | 4  | 4   | fct       | Komprimierung und Skalierung | Das Komprimieren der Farben sowie das Downsizing des Bildes auf die gewünschte Bildgröße.                                                 | high | open   | –                   |
 | 5  | 1   | non fct   | UI                           | Verständliches, übersichtliches und benutzerfreundliches UI                                                                               | med  | open   | kundenzufriedenheit |
 | 6  | 2   | non fct   | Layering                     | Das Bügelperlenbild erhält einen 3D-Layering-Effekt durch das Hinzufügen mehrerer Ebenen                                                  | med  | open   | kundenzufriedenheit |
+
+
+## 5. Activity-Diagramm "Preview ansehen"
+![ActivityDiaBildVorschau](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ActivityDiaLayerAnpassen.puml)
+
+## 6. Activity-Diagramm "Layer anpassen"
+![ActivityDiaLayerAnpassen](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ActivityDiaBildvorschau.puml)
+
+## 7. Klassendiagramm
+Die zentralen Konzepte unsere Anwendung konnten wir in 7 Entitäten zusammenfassen. Dabei steht der Nutzer natürlich als außenstehender Verwender des Systems. Außerdem übergibt er das zu verwendende Bild und erhält am Ende die vom System erstellte Anleitung. Das System verwendet für das Anpassen und Erstellen einer Anleitung den Colormapper und den Exporter und speichert alle Fortschritte im Projekt.
+
+![ClassDiagramm](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/ClassDiagramm.puml)
+
+## 8. System-Sequenz-Diagramm
+Zuerst lädt der Nutzer ein Bild hoch, welches dann vom System konvertiert und verarbeitet wird. Dazu werden Defaultwerte zur Umwandlung genutzt. Danach gibt das System eine Preview und ermöglicht ab jetzt dem Nutzer verschiedene Operationen. Zum einen kann er einzelne Farben manuell abändern, die Grenzen und Anzahl der Layer anpassen und die allgemeine Größe und das Format anpassen. Nachdem der Nutzer seine Anpassungen vorgenommen hat, kann er zuletzt eine Anleitung generieren.
+
+![SystemSequenzDia](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Karma-chocolate/SWE-Labor/main/System-Sequenz-Diagramm.puml)
 
 ## Verwendung von LLMS:
 Wir haben für diese Präsentation LLMs (ChatGPT) für die Erstellung von Plant UML Diagrammen verwendet.
