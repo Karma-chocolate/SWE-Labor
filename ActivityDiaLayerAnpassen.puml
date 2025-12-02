@@ -7,14 +7,19 @@ start
 :Importiert ein Bild;
 
 |System|
-:Zeigt Vorschau der Vorlage;
+:Skaliert Originalbild auf Default Größe;
+:Nimmt Durchschnitt der Farben für Downscale;
+:Erstellt Layer nach Default-Einstellungen;
+:Zeigt erste Vorschau der Vorlage;
 
 |Nutzer|
 :Sieht Vorschau und beschließt, eine Änderung vorzunehmen;
 :Drückt "Vorschau erstellen";
 
 |System|
-:Nimmt Änderung vor;
+:Skaliert das Bild auf die neuen Dimensionen;
+:Wendet die Farbreduktion auf die neuen Dimensionen an;
+:Passt die Layerdimensionen auf die neuen Dimensionen an;
 :Erstellt neue Vorschau;
 :Zeigt aktualisierte Vorschau;
 
