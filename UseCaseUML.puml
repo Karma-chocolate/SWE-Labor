@@ -28,8 +28,8 @@ Nutzer --> Export
 ' Save --> Upload : <<extend>>
 ' Export --> Save : <<extend>>
 Save --> Export : <<include>>
-Preview --> Dimensions : <<extend>>
-Preview --> Layers : <<extend>>
-Preview --> Upload : <<extend>>
+Dimensions --> Preview : <<extends>>
+Layers --> Preview : <<extends>>
+Upload --> Preview : <<extends>>
 
 @enduml
