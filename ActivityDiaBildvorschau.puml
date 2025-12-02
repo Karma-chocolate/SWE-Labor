@@ -17,7 +17,7 @@ start
 :Drückt "Vorschau erstellen";
 
 |System|
-:Passt die Layeranzahl an;
+:Stetzt die Variablen der Layeranzahl auf die neue Anzahl;
 :Zeigt aktualisierte Vorschau;
 
 |Nutzer|
@@ -25,7 +25,7 @@ start
 :Drückt "Vorschau erstellen";
 
 |System|
-:Setzt Grenzen und Dimensionen der Layer neu;
+:Setzt die Variablen der Layer Grenzen auf die neue Position;
 :Zeigt aktualisierte Vorschau;
 
 |Nutzer|
