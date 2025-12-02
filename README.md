@@ -1,6 +1,6 @@
 ## 1. 3D Perlenbild:
 [ brsi1022 / doal1018 / plni1012 ]
-
+![Beispiel](https://github.com/Karma-chocolate/SWE-Labor/blob/main/evoli.jpg?raw=true)
 Ein beliebiges Bild des Users wird umgewandelt in eine ausdruckbare Vorlage für
 3D Pixelart mit konkavem Tiefeneffekt, welche mit Bügelperlen gebaut werden kann.
 Dabei hat der User die Freiheit, die Skalierung und Größe des Bilds anzupassen, sowie
