@@ -27,9 +27,9 @@ Nutzer --> Export
 ' Extend-Beziehungen (optionale Erweiterungen)
 ' Save --> Upload : <<extend>>
 ' Export --> Save : <<extend>>
-Save --> Export
-Dimensions --> Preview
-Layers --> Preview
-Upload --> Preview
+Save --> Export : <<include>>
+Preview --> Dimensions : <<extend>>
+Preview --> Layers : <<extend>>
+Preview --> Upload : <<extend>>
 
 @enduml
