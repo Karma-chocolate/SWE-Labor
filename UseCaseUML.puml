@@ -4,19 +4,32 @@ left to right direction
 actor Nutzer
 
 rectangle "System" {
-    (Bild hochladen)
-    (Bildvorschau ansehen)
-    (Dimensionen festlegen)
-    (Layer anpassen)
-    (Projekt speichern)
-    (Exportieren als PDF/PNG)
+    usecase Upload as "Bild hochladen"
+    usecase Preview as "Bildvorschau ansehen"
+    usecase Dimensions as "Dimensionen festlegen"
+    usecase Layers as "Layer anpassen"
+    usecase Save as "Projekt speichern"
+    usecase Export as "Exportieren als PDF/PNG"
 }
 
-Nutzer --> (Bild hochladen)
-Nutzer --> (Bildvorschau ansehen)
-Nutzer --> (Dimensionen festlegen)
-Nutzer --> (Layer anpassen)
-Nutzer --> (Projekt speichern)
-Nutzer --> (Exportieren als PDF/PNG)
+Nutzer --> Upload
+Nutzer --> Preview
+Nutzer --> Dimensions
+Nutzer --> Layers
+Nutzer --> Save
+Nutzer --> Export
+
+' Include-Beziehungen (zwingende Abhängigkeiten)
+' Preview --> Export : <<include>>
+' Dimensions --> Preview : <<include>>
+' Layers --> Preview : <<include>>
+
+' Extend-Beziehungen (optionale Erweiterungen)
+' Save --> Upload : <<extend>>
+' Export --> Save : <<extend>>
+Save --> Export : <<include>>
+Preview --> Dimensions : <<extend>>
+Preview --> Layers : <<extend>>
+Preview --> Upload : <<extend>>
 
 @enduml
