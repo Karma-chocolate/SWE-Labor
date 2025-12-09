@@ -43,7 +43,7 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 
 
 ## 5. Activity-Diagramm "Preview ansehen"
-![ActivityDiaBildVorschau](https://github.com/Karma-chocolate/SWE-Labor/blob/main/activitaetsDiagramm.png?raw=true)
+![ActivityDiaBildVorschau](https://github.com/Karma-chocolate/SWE-Labor/blob/main/ActivitaetsDiagramm.png?raw=true)
 
 ## 6. Activity-Diagramm "Layer anpassen"
 ![ActivityDiaLayerAnpassen](https://github.com/Karma-chocolate/SWE-Labor/blob/main/plantumldia.png?raw=true)
@@ -54,7 +54,7 @@ Die zentralen Konzepte unsere Anwendung konnten wir in 7 Entitäten zusammenfass
 
 ## 8. System-Sequenz-Diagramm
 Zuerst lädt der Nutzer ein Bild hoch, welches dann vom System konvertiert und verarbeitet wird. Dazu werden Defaultwerte zur Umwandlung genutzt. Danach gibt das System eine Preview und ermöglicht ab jetzt dem Nutzer verschiedene Operationen. Zum einen kann er einzelne Farben manuell abändern, die Grenzen und Anzahl der Layer anpassen und die allgemeine Größe und das Format anpassen. Nachdem der Nutzer seine Anpassungen vorgenommen hat, kann er zuletzt eine Anleitung generieren.
-![SystemSequenzDia](https://github.com/Karma-chocolate/SWE-Labor/blob/main/SystemSequenzDiagramm.png?raw=true)
+![SystemSequenzDia](https://github.com/Karma-chocolate/SWE-Labor/blob/main/SystemSeuenzDiagramm.png?raw=true)
 
 ## Verwendung von LLMS:
 Wir haben für diese Präsentation LLMs (ChatGPT) für die Erstellung von Plant UML Diagrammen verwendet.
