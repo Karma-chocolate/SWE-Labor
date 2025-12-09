@@ -46,7 +46,7 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 ![ActivityDiaBildVorschau](https://github.com/Karma-chocolate/SWE-Labor/blob/main/activityDia.png?raw=true)
 
 ## 6. Activity-Diagramm "Layer anpassen"
-![ActivityDiaLayerAnpassen](https://github.com/Karma-chocolate/SWE-Labor/blob/main/?raw=true)
+![ActivityDiaLayerAnpassen](https://github.com/Karma-chocolate/SWE-Labor/blob/main/plantumldia?raw=true)
 
 ## 7. Klassendiagramm
 Die zentralen Konzepte unsere Anwendung konnten wir in 7 Entitäten zusammenfassen. Dabei steht der Nutzer natürlich als außenstehender Verwender des Systems. Außerdem übergibt er das zu verwendende Bild und erhält am Ende die vom System erstellte Anleitung. Das System verwendet für das Anpassen und Erstellen einer Anleitung den Colormapper und den Exporter und speichert alle Fortschritte im Projekt.
