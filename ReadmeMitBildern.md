@@ -12,7 +12,7 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 
 
 ## 2. Use Cases
-![Use-Case](https://github.com/Karma-chocolate/SWE-Labor/blob/main/UseCaseDia.png?raw=true)
+![Use-Case](https://github.com/Karma-chocolate/SWE-Labor/blob/main/UseCaseDiagramm.png?raw=true)
 
 | Beschreibung                                                     | Name  | Prio | Status | Fragen | Req. |
 | ---------------------------------------------------------------- | ---------------------- | ---- | ------ | ------ | ---- |
@@ -43,18 +43,18 @@ eine Anzahl an benötigten Bügelperlen und eine Anleitung zum Zusammenschmelzen
 
 
 ## 5. Activity-Diagramm "Preview ansehen"
-![ActivityDiaBildVorschau](https://github.com/Karma-chocolate/SWE-Labor/blob/main/activityDia.png?raw=true)
+![ActivityDiaBildVorschau](https://github.com/Karma-chocolate/SWE-Labor/blob/main/activitaetsDiagramm.png?raw=true)
 
 ## 6. Activity-Diagramm "Layer anpassen"
 ![ActivityDiaLayerAnpassen](https://github.com/Karma-chocolate/SWE-Labor/blob/main/plantumldia.png?raw=true)
 
 ## 7. Klassendiagramm
 Die zentralen Konzepte unsere Anwendung konnten wir in 7 Entitäten zusammenfassen. Dabei steht der Nutzer natürlich als außenstehender Verwender des Systems. Außerdem übergibt er das zu verwendende Bild und erhält am Ende die vom System erstellte Anleitung. Das System verwendet für das Anpassen und Erstellen einer Anleitung den Colormapper und den Exporter und speichert alle Fortschritte im Projekt.
-![ClassDiagramm](https://github.com/Karma-chocolate/SWE-Labor/blob/main/classDia.png?raw=true)
+![ClassDiagramm](https://github.com/Karma-chocolate/SWE-Labor/blob/main/KlassenDiagramm.png?raw=true)
 
 ## 8. System-Sequenz-Diagramm
 Zuerst lädt der Nutzer ein Bild hoch, welches dann vom System konvertiert und verarbeitet wird. Dazu werden Defaultwerte zur Umwandlung genutzt. Danach gibt das System eine Preview und ermöglicht ab jetzt dem Nutzer verschiedene Operationen. Zum einen kann er einzelne Farben manuell abändern, die Grenzen und Anzahl der Layer anpassen und die allgemeine Größe und das Format anpassen. Nachdem der Nutzer seine Anpassungen vorgenommen hat, kann er zuletzt eine Anleitung generieren.
-![SystemSequenzDia](https://github.com/Karma-chocolate/SWE-Labor/blob/main/sequenzDia.png?raw=true)
+![SystemSequenzDia](https://github.com/Karma-chocolate/SWE-Labor/blob/main/SystemSequenzDiagramm.png?raw=true)
 
 ## Verwendung von LLMS:
 Wir haben für diese Präsentation LLMs (ChatGPT) für die Erstellung von Plant UML Diagrammen verwendet.
